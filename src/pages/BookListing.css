@@ -1,0 +1,33 @@
+/* BookListing.css */
+.book-listing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .book-item {
+    margin-bottom: 20px;  
+  }
+
+  .list-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5rem;
+     height: 80vh;
+     width: 70vw;
+    flex-wrap: wrap;
+  }
+  
+  .view-details-link {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .view-details-link:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,24 @@
+/* ShoppingCart.css */
+.shopping-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cart-item {
+    margin-bottom: 20px;
+  }
+  
+  .remove-item-button {
+    padding: 4px 8px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-item-button:hover {
+    background-color: #c82333;
+  }
+  
